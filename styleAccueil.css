@@ -1,0 +1,110 @@
+body{
+    margin:0%;
+    padding: 0%;
+}
+
+header {
+    z-index: 2;
+    height:100%;
+    width: 100%;
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.185),
+      rgba(0, 0, 0, 0.438)
+    ),url("Image/DroneGenesis.jpg");
+    background-repeat:repeat ;
+    background-position:center;
+    background-size:cover;     
+}
+
+header h1{
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+    font-style:normal;
+    font-weight: bold;
+    text-align:center;
+    padding-top:10%;
+}
+
+.blueband{
+    background-color: rgb(40, 81, 156);
+    height:2%;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+ul:hover{
+    box-shadow: 0px 6px 10px black;
+}
+
+.content{
+    z-index: 1;
+    padding:0;
+    margin: 0;
+    height:1000px;
+    width: 100%;
+    background-color: rgba(125, 135, 145, 0.794);
+    display:flex;
+    flex-direction: column;
+}
+
+.content article{
+    background-color: white;
+    line-height: 1.5em;
+    padding: 2%;
+    margin: 2%;
+}
+.content article h2{
+
+    font-size: 40px;
+}
+.content .article{
+    display:flex;
+    flex-direction: row;
+    padding:cover;
+    margin: 2%;
+    height: 300px;
+}
+.content img{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border:1px solid rgba(0, 0, 0, 0.7);
+}
+
+footer{
+    z-index: 3;  
+    height:100%;
+    width: 100%;
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.185),
+      rgba(0, 0, 0, 0.438)
+    ),url("Image/DroneNight.jpg");
+    background-repeat:repeat ;
+    background-position:center;
+    background-size:cover;   
+}
