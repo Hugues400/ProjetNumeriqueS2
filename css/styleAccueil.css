@@ -69,16 +69,19 @@ article{
     background-color: white;
     padding:2%;
     border:3px solid rgba(213, 215, 216, 0.767);
-    color :rgba(9, 14, 82, 0.966);
+    color :#444444;
 }
 
 h2{
-    color: rgba(9, 14, 82, 0.966);
+    color: #444444;
+}
+.email{
+    color: blue;
 }
 
 footer{
     margin-top: 10px;
     height:30%;
     border-top : 1rem solid rgba(237, 241, 244, 0.767);  
-    background-color: rgba(9, 14, 82, 0.966);
+    background-color: gray;
 }
